@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Hide Swiper navigation arrows everywhere */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+html, body {
+  overflow-x: hidden;
+}
