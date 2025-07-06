@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import LOGO from "../assets/LOGO.png";
 import {
   FiSearch,
   FiHeart,
@@ -102,7 +103,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center flex-1 md:flex-none min-w-0">
               <div className="flex-shrink-0">
-                <span><img src="/src/assets/LOGO.png" alt="" /></span>
+                <span><img src={LOGO} alt="" /></span>
               </div>
 
               {/* Desktop Search - Hidden on mobile */}
